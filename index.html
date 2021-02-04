@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="horizontal_scroll.js"></script>
+    <title>Chorizo Layout</title>
+</head>
+<body>
+           
+ 
+
+    <div class="main-content">
+
+      <div id="image_1" class="section image_with_text">
+        <div class="main_title">
+            TITLE<br>
+            Subtitle
+        </div>    
+      </div>
+
+      <div class="section two_columns_text">
+          <div class="columns">
+              <div class="column hidden">
+                <div class="subtitle mb-5">Lorem ipsum</div>  
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam facilis vitae, tenetur fugiat dolorum iure expedita rerum modi culpa nesciunt consectetur ut id. Corporis, laborum? Laudantium culpa deleniti eveniet numquam?
+              </div>
+          </div>
+          <div class="columns">
+            <div class="column hidden">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam laboriosam amet voluptatem assumenda, perferendis pariatur alias libero eos error incidunt eaque ipsum mollitia labore doloremque, adipisci voluptates magni necessitatibus?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam laboriosam amet voluptatem assumenda, perferendis pariatur alias libero eos error incidunt eaque ipsum mollitia labore doloremque, adipisci voluptates magni necessitatibus?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam laboriosam amet voluptatem assumenda, perferendis pariatur alias libero eos error incidunt eaque ipsum mollitia labore doloremque, adipisci voluptates magni necessitatibus?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam laboriosam amet voluptatem assumenda, perferendis pariatur alias libero eos error incidunt eaque ipsum mollitia labore doloremque, adipisci voluptates magni necessitatibus?
+            </div>
+            <div class="column hidden">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, possimus, illo ipsam esse labore reprehenderit officia voluptatem odit corrupti quibusdam aliquid voluptas laboriosam. Commodi officia nobis repellat eius odit vel.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, possimus, illo ipsam esse labore reprehenderit officia voluptatem odit corrupti quibusdam aliquid voluptas laboriosam. Commodi officia nobis repellat eius odit vel.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, possimus, illo ipsam esse labore reprehenderit officia voluptatem odit corrupti quibusdam aliquid voluptas laboriosam. Commodi officia nobis repellat eius odit vel.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, possimus, illo ipsam esse labore reprehenderit officia voluptatem odit corrupti quibusdam aliquid voluptas laboriosam. Commodi officia nobis repellat eius odit vel.
+            </div>
+        </div>        
+
+      </div>
+
+      <div class="section">
+        <a class="image_link" href="https://unsplash.com/@erondu"><img src="https://source.unsplash.com/user/erondu/420x800">	</a>
+        <div>
+          <a href="https://unsplash.com/@erondu">@erondu <3 Hi Res </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <a class="image_link" href="https://unsplash.com/@erondu"><img src="https://source.unsplash.com/user/erondu/420x800">	</a>
+        <div>
+          <a href="https://unsplash.com/@erondu">@erondu <3 Hi Res </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <a class="image_link" href="https://unsplash.com/@erondu"><img src="https://source.unsplash.com/user/erondu/420x800">	</a>
+        <div>
+          <a href="https://unsplash.com/@erondu">@erondu <3 Hi Res </a>
+        </div>
+      </div>
+      
+      <div class="section">
+        <a class="image_link" href="https://unsplash.com/@erondu"><img src="https://source.unsplash.com/user/erondu/420x800">	</a>
+        <div>
+          <a href="https://unsplash.com/@erondu">@erondu <3 Hi Res </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <a class="image_link" href="https://unsplash.com/@erondu"><img src="https://source.unsplash.com/user/erondu/420x800">	</a>
+        <div>
+          <a href="https://unsplash.com/@erondu">@erondu <3 Hi Res </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <a class="image_link" href="https://unsplash.com/@erondu"><img src="https://source.unsplash.com/user/erondu/420x800">	</a>
+        <div>
+          <a href="https://unsplash.com/@erondu">@erondu <3 Hi Res </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <a class="image_link" href="https://unsplash.com/@erondu"><img src="https://source.unsplash.com/user/erondu/420x800">	</a>
+        <div>
+          <a href="https://unsplash.com/@erondu">@erondu <3 Hi Res </a>
+        </div>
+      </div>
+
+  </div>
+
+
+
+<script>
+(function() {
+  
+  var elements;
+  var windowWidth;
+
+  function init() {
+    elements = document.querySelectorAll('.hidden');
+    windowWidth = window.innerWidth;
+  }
+
+  function checkPosition() {
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var positionFromLeft = elements[i].getBoundingClientRect().left;
+      if (positionFromLeft - windowWidth <= 0) {
+        element.classList.add('fade-in-element');
+        element.classList.remove('hidden');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', checkPosition);
+  window.addEventListener('resize', init);
+  
+  init();
+  checkPosition();
+})();
+</script>
+
+
+
+</body>
+</html>
