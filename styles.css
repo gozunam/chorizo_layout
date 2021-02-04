@@ -32,7 +32,7 @@ body {
 }
 
 #image_1 {
-    background-image: url("images/image_1.jpg");
+    background-image: url("images/burillo_entrada.jpg");
 }
 
 .main_title {
@@ -48,18 +48,118 @@ body {
     letter-spacing: -2px;
   }
 
+  .main_subtitle {
+    font-size: 32px;
+    color: #bf406c;
+    text-align: right;
+    width: 640px;
+    position: absolute;
+    top: 540px;
+    left: 51px;
+    letter-spacing: -2px;
+  }
+
+  .main_contact {
+    font-size: 32px;
+    color: #bf406c;
+    text-align: right;
+    width: 540px;
+    position: absolute;
+    top: 740px;
+    left: 5px;
+    letter-spacing: -2px;
+  }
 
 
-
+/* TWO_COLUMNS_TEXT SECTION */
 
 .two_columns_text {
     width: 854px;
     padding: 72px;
 }
 
-.subtitle {
+.subtitle1 {
     color: #bf406c;
 }
+
+.abstract {
+  line-height: 29px;
+}
+
+
+
+/* ONLY_PHOTOS */
+
+.only_photos_1 {
+  width: 715px;
+  padding: 72px;
+  background-color: #d5d5d5;
+  line-height: 0px;
+}
+
+.only_photos_2 {
+  width: 585px;
+  padding: 72px;
+  background-color: #d5d5d5;
+  line-height: 0px;
+}
+
+
+/* THREE_COLUMNS_TEXT SECTION */
+
+.three_columns_text {
+  width: 1224px;
+  padding: 72px;
+  background-color: #682a6e;
+}
+
+.subtitle2 {
+  color: #f1e678;
+}
+
+.abstract {
+  line-height: 29px;
+}
+
+
+/* COMPLETE_PHOTO */
+
+.complete_photo {
+  line-height: 0px;
+  padding: 0;
+}
+
+/* IMAGE_WITH_LINKS */
+
+.image_with_links {
+  width: 1280px;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 1007px;
+  position: relative;
+}
+
+#image_link_1 {
+  background-image: url("images/lineas_ornato.jpg");
+}
+
+.photo_links {
+  line-height: 80px;
+  text-align: right;
+  width: 350px;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+}
+
+.main_logo {
+  width: 521px;
+  position: absolute;
+  top: 400px;
+  left: 410px;
+}
+
+
 
 
 @keyframes fade-in {
