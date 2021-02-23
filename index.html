@@ -5,14 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.css">
     <link rel="stylesheet" href="styles.css">
     <title>Chorizo Layout</title>
 </head>
 <body> 
-  <div class="main-content">
 
+  <div class="is-hidden-desktop">
+
+    <nav class="navbar is-transparent">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+        </a>
+        <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="https://bulma.io/">
+            Home
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#">
+              Docs
+            </a>
+            <div class="navbar-dropdown is-boxed">
+              <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+                Overview
+              </a>
+              <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
+                Modifiers
+              </a>
+              <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                Columns
+              </a>
+              <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+                Layout
+              </a>
+              <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+                Form
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+                Elements
+              </a>
+              <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+                Components
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="columns">
+      <div class="column">
+        <h2>Title</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maxime quis nemo deserunt, rem corrupti atque ex, illo dolorum repudiandae expedita iusto voluptatem voluptates. Vel libero optio voluptatem error enim?
+      </div>  
+    </div>  
+
+    <div class="columns">
+      <div class="column touch_abstract p-5">
+        <h4>La vida y obra de Dr Urquietas</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem itaque vitae iste, autem ullam architecto quisquam, libero, aliquid fuga vel molestiae aperiam velit explicabo doloremque ipsa perspiciatis! Nemo, ducimus at.
+        <p>
+        <img src="images/chelitas.jpg" alt="">    
+      </div>  
+    </div>  
+
+
+  </div>  
+
+
+  <div class="main-content is-hidden-touch">
+
+
+    <div class="my_nav transform section ">
+
+      <div class="my_nav_content">
+        Bienvenidos amigos y amigas
+        <img src="images/cerveceria1.jpg">
+      </div>
+
+    </div>
+
+
+
+    <!-- IMAGE WITH TEXT -->
     <div id="image_1" class="section image_with_text">
+      <div class="arrow">
+        <a href="#" id="button" class="is-size-1"><i class="fas fa-arrow-circle-right"></i></a>
+      </div>
       <div class="main_title">
         TITLE<br>
         Subtitle
@@ -21,12 +121,16 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit itaque enim maxime iste 
       </div>
       <div class="main_contact">
-        correo@chorizon.com<br>
-        565887686
+        email@chorizon.com<br>
+        01-800-2423
       </div>      
     </div>
+    
 
 
+
+
+    <!-- TWO COLUMNS TEXT -->
     <div class="section two_columns_text">
       <div class="columns">
         <div class="column hidden">
@@ -51,15 +155,12 @@
           </div>
         </div>        
       </div>
-
-
+      <!-- ONLY PHOTOS -->
       <div class="section only_photos_1">
         <img src="images/burillo_lab_joven.jpg">
         <img src="images/burillo_lab_joven02.jpg">
       </div>
-
-
-
+      <!-- THREE COLUMNS TEXT-->
       <div class="section three_columns_text">
         <div class="columns">
           <div class="column hidden is-two-thirds has-text-white">
@@ -92,13 +193,11 @@
             </div>
           </div>        
       </div>
-
-
+      <!-- COMPLETE PHOTO -->     
       <div class="section complete_photo">
         <img src="images/burillo_lab.jpg">
       </div>      
-
-
+      <!-- TWO COLUMNS TEXT -->
       <div class="section two_columns_text">
         <div class="columns">
           <div class="column hidden">
@@ -123,12 +222,11 @@
             </div>
           </div>        
         </div>
-
+        <!-- ONLY PHOTOS -->
         <div class="section only_photos_2">
           <img src="images/Burillo_GOT_BN.jpg">
         </div>
-
-
+        <!-- IMAGE WITH LINKS -->
         <div id="image_link_1" class="section image_with_links">
           <div class="photo_links">
             <a href="" class="has-text-white is-size-4">SIGUIENTE BIOGRAFÍA</a><br>
@@ -138,13 +236,27 @@
             <a href=""><img src="images/logo_creadoras.png"></a>
           </div>     
         </div>
-
-
-
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
   <script src="horizontal_scroll.js"></script>
   <script src="my_animate.js"></script>
+  <script>
+    $(document).ready(function() {
+    // Check for click events on the navbar burger icon
+    $(".navbar-burger").click(function() {
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    $(".navbar-burger").toggleClass("is-active");
+    $(".navbar-menu").toggleClass("is-active");
+});
+});
+  </script>  
+  <script>
+    $("#button").click(function() {
+      $('.transform').toggleClass('transform-active');
+      if ($('.my_nav_content').css('opacity') == 0) $('.my_nav_content').css('opacity', 1);
+      else $('.my_nav_content').css('opacity', 0);
+    });
+  </script>  
 </body>
 </html>

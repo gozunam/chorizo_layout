@@ -9,6 +9,89 @@ body {
   white-space: nowrap;
 }
 
+
+
+.my_nav {
+  width: 80px;
+  background-color: gray;
+}
+
+.transform {
+  -webkit-transition: all 1s ease;  
+  -moz-transition: all 1s ease;  
+  -o-transition: all 1s ease;  
+  -ms-transition: all 1s ease;  
+  transition: all 1s ease;
+}
+
+.transform-active {
+  background-color: #45CEE0;
+  width: 180px;
+}
+
+
+
+
+
+
+
+.arrow a {
+  color: tomato;
+}
+
+.arrow a:hover {
+  color: darkgray;
+}
+
+
+
+.my_nav_content {
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes formFade {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+  }
+  @-moz-keyframes formFade { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+  }
+  @-webkit-keyframes formFade { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+  }
+  @-o-keyframes formFade { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+  }
+
+.my_nav_content_show {
+  display: block;
+}
+
+
 /* STYLES FOR ALL SECTIONS */
 
 .section {
@@ -27,7 +110,6 @@ body {
     width: 1280px;
     background-repeat: no-repeat;
     background-position: right;
-    height: 1007px;
     position: relative;
 }
 
@@ -135,7 +217,6 @@ body {
   width: 1280px;
   background-repeat: no-repeat;
   background-position: left;
-  height: 1007px;
   position: relative;
 }
 
@@ -176,7 +257,11 @@ animation: fade-in 1.4s;
 
 
 
-
+.touch_abstract {
+  background-color: #333;
+  color: antiquewhite;
+  font-size: 1.8rem;
+}
 
 
 
